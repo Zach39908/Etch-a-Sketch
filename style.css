@@ -1,0 +1,49 @@
+/* 
+CSS Stylesheet
+Etch-a-Sketch
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4em;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgb(204, 224, 255);
+}
+
+.container {
+    display: grid;
+    height: 85%;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.inPath {
+    background-color: lightcoral;
+}
+
+button {
+    margin: 0.25em;
+    padding: 0.5em 1em;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: black;
+    background-color: rgb(255, 224, 157);
+    border: 2px solid black;
+    border-radius: 0.25em;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(189, 85, 0);
+    border: 2px solid white;
+}
