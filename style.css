@@ -28,8 +28,9 @@ body {
 }
 
 button {
+    width: min(15em, 15%);
     margin: 0.25em;
-    padding: 0.5em 1em;
+    padding: 0.5em 0;
     font-size: 1.15rem;
     font-weight: 700;
     color: black;
