@@ -4,11 +4,17 @@
 const gridContainer = document.querySelector('.container');
 
 function setDivs() {
+    const bgColors = [];
+    for(let i = 1; i < 11; i++) {
+        let shadeValue = 255 - (255 * 0.1) * i
+        bgColors.push(`rgb(${shadeValue}, ${shadeValue}, ${shadeValue})`);
+    }
+
     const gridDivs = document.querySelectorAll('.container > div');
     gridDivs.forEach(div => {
-        let i = 0;
+        let i = 1;
         div.addEventListener('mouseover', () => {
-            div.style.backgroundColor = `rgb(${240 - 24 * i}, ${128 - 13 * i}, ${128 - 13 * i})`;
+            div.style.backgroundColor = bgColors[i];
             i++;
         });
     });
