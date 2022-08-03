@@ -12,4 +12,7 @@ path.
 
 The user may reset the sketchbook and specify their desired size by inputting the number of tiles to form the X/Y axes.
 
+**Note**: This project was developed for desktop/laptop functionality. Cursor/mouse drawing must be done with a computer mouse,
+not on a touchscreen device.
+
 This project was developed from guidelines found at [The Odin Project](https://www.theodinproject.com/lessons/foundations-etch-a-sketch)
