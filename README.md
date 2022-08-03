@@ -8,7 +8,7 @@
 
 Web site that simulates drawing on an Etch-a-Sketch by hovering the user's mouse over the sketchbook tiles.
 The tiles will change from their original background color to a different background color displaying a path generated from the cursor's
-path.
+path. Each subsequent time the cursor passes over a tile, the color will shade in a darker tone.
 
 The user may reset the sketchbook and specify their desired size by inputting the number of tiles to form the X/Y axes.
 
