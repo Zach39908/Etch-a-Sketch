@@ -4,8 +4,6 @@
 
 [Etch-a-Sketch Webpage](https://zach39908.github.io/Etch-a-Sketch/)
 
-___
-
 ## Description
 
 Web site that simulates drawing on an Etch-a-Sketch by hovering the user's mouse over the sketchbook tiles.
