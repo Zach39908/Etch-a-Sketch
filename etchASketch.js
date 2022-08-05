@@ -51,5 +51,5 @@ resetButton.addEventListener('click', () => {
     setDivs();
 });
 
-fillGrid(16, 16);
+fillGrid(16);
 setDivs();
